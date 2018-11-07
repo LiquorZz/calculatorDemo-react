@@ -7,7 +7,7 @@ class ButtonPanel extends React.Component {
     this.props.clickHandler(buttonName);
   }
   render () {
-    return (
+    return ( 
       <div className={styles}>
         <div>
           <Button name='AC' clickHandler = {this.handleClick}/>
