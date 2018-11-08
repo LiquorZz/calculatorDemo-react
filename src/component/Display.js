@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Display.css';
+import styles from './Display.less';
 
 class Display extends React.Component {
   render () {

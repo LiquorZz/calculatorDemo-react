@@ -1,6 +1,6 @@
 import React from 'react';
 import Button from './Button';
-import styles from './ButtonPanel.css'
+import styles from './ButtonPanel.less'
 
 class ButtonPanel extends React.Component {
   handleClick = buttonName => {
@@ -8,7 +8,7 @@ class ButtonPanel extends React.Component {
   }
   render () {
     return ( 
-      <div className={styles}>
+      <div className={styles.componentButtonPanel}>
         <div>
           <Button name='AC' clickHandler = {this.handleClick}/>
           <Button name='+/-' clickHandler = {this.handleClick}/>
